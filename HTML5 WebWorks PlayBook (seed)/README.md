@@ -67,8 +67,7 @@
 	/config.xml
 
 
-
-``` html index.html
+(html index.html)
 
     <!DOCTYPE html>
     <html>
@@ -86,13 +85,10 @@
     </body>
     </html>
 
-```
 
-
-
-``` xml config.xml
-
-    <?xml version="1.0" encoding="UTF-8"?>
+(xml config.xml)
+    
+<?xml version="1.0" encoding="UTF-8"?>
     
     <widget xmlns="http://www.w3.org/ns/widgets"
             xmlns:rim="http://www.blackberry.com/ns/widgets"
