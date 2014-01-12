@@ -88,7 +88,7 @@
 
 (xml config.xml)
     
-<?xml version="1.0" encoding="UTF-8"?>
+    <?xml version="1.0" encoding="UTF-8"?>
     
     <widget xmlns="http://www.w3.org/ns/widgets"
             xmlns:rim="http://www.blackberry.com/ns/widgets"
@@ -100,8 +100,6 @@
         <content src="index.html"/>
     
     </widget>
-
-```
 
 
 ### Use Ripple to package and deploy the app on a PlayBook tablet
