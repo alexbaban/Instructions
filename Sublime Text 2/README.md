@@ -1,4 +1,4 @@
-### Installation - Package Control
+### Install Package Control
 
 [console installation instructions](https://sublime.wbond.net/installation#st2)
 
