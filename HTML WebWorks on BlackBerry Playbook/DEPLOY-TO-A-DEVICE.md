@@ -3,11 +3,11 @@
 ## Before you begin
 
 * make sure that your BlackBerry PlayBook tablet is on the same network as your computer
-* make sure that your BlackBerry PlayBook tablet is in **Development Mode
+* make sure that your BlackBerry PlayBook tablet is in **Development Mode**
 
 ## Create a debug token
 
-At a command prompt, navigate to **blackberry-tablet-sdk\bin in your BlackBerry PlayBook OS SDK folder.
+At a command prompt, navigate to **blackberry-tablet-sdk\bin** in your BlackBerry PlayBook OS SDK folder.
 
 Create a debug token for your device by using the following syntax and values for the command line options
 
