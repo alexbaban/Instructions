@@ -4,4 +4,4 @@ Detailed information telling how something should be done, operated, or assemble
 
 ## HTML WebWorks on BlackBerry Playbook
 
-* [Deploy to a device](Instructions/HTML WebWorks on BlackBerry Playbook/DEPLOY-TO-A-DEVICE.md)
+* [Deploy to a device]("Instructions/HTML WebWorks on BlackBerry Playbook/DEPLOY-TO-A-DEVICE.md")
