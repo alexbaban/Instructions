@@ -27,4 +27,4 @@ Type the following command:
 
 Example:
 
-`blackberry-deploy -installDebugToken "C:\BlackBerryApps\DebugToken.bar" -device 192.168.0.108 -password <device password>`
+`blackberry-deploy -installDebugToken "C:\BlackBerryApps\DebugToken.bar" -device 192.168.0.108 -password 123456`
