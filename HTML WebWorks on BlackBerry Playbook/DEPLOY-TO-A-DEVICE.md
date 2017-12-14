@@ -8,7 +8,7 @@
 
 ## Create a debug token
 
-// type the following command <br />
+// type the following command   
 `blackberry-debugtokenrequest -storepass <KeystorePassword> -devicepin <device PIN> <debug_token_file_name.bar>`
 
 // example <br />
@@ -16,12 +16,12 @@
 
 ## Verify a debug token
 
-// type the following command <br />
+// type the following command   
 `blackberry-debugtokenrequest -verify "C:\BlackBerryApps\DebugToken.bar"`
 
 ## Install a debug token
 
-// type the following command <br />
+// type the following command   
 `blackberry-deploy -installDebugToken <path to debug token> -device <Development Address> -password <device password>`
 
 // example <br />
