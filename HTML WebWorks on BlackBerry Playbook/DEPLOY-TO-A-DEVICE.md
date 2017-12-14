@@ -2,9 +2,8 @@
 
 ## Before you begin
 
-Make sure that your BlackBerry PlayBook tablet is on the same network as your computer.
-
-Make sure that your BlackBerry PlayBook tablet is in `Development Mode`.
+* make sure that your BlackBerry PlayBook tablet is on the same network as your computer.
+* make sure that your BlackBerry PlayBook tablet is in `Development Mode`.
 
 ## Create a debug token
 
