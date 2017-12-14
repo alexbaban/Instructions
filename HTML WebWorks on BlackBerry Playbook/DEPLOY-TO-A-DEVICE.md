@@ -10,9 +10,11 @@
 At a command prompt, navigate to `blackberry-tablet-sdk\bin` in your BlackBerry PlayBook OS SDK folder.
 
 // type the following command 
+
 `blackberry-debugtokenrequest -storepass <KeystorePassword> -devicepin <device PIN> <debug_token_file_name.bar>`
 
 // example 
+
 `blackberry-debugtokenrequest -storepass <KeystorePassword> -devicepin <device PIN> "C:\BlackBerryApps\DebugToken.bar"`
 
 ## Install a debug token
@@ -20,7 +22,9 @@ At a command prompt, navigate to `blackberry-tablet-sdk\bin` in your BlackBerry 
 At a command prompt, navigate to `blackberry-tablet-sdk\bin` in your BlackBerry PlayBook OS SDK folder.
 
 // type the following command 
+
 `blackberry-deploy -installDebugToken <path to debug token> -device <Development Address> -password <device password>`
 
 // example 
+
 `blackberry-deploy -installDebugToken "C:\BlackBerryApps\DebugToken.bar" -device 192.168.0.108 -password 123456`
