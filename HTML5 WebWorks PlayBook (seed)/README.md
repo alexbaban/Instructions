@@ -103,5 +103,3 @@
 
 
 ### Use Ripple to package and deploy the app on a PlayBook tablet
-
-//\+ <3 by alexbaban 
