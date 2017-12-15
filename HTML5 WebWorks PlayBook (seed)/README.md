@@ -41,23 +41,6 @@
 	must contain proper <author> and <authorId> values 
     or <debug_token></debug_token> from bbwp.properties contains a full path to a valid debug token 
 
-
-### Create a debug token
-	
-    At a command prompt, navigate to "\blackberry-tablet-sdk\bin" in the <BlackBerry WebWorks SDK install folder>
-	"blackberry-debugtokenrequest.bat -storepass <KeystorePassword> -devicepin <device PIN> <debug_token_file_name.bar>"
-
-
-### Install a debug token
-	
-    Configure the BlackBerry PlayBook tablet for development mode
-	At a command prompt, navigate to "\blackberry-tablet-sdk\bin" in the <BlackBerry WebWorks SDK install folder>
-	"blackberry-deploy -installDebugToken <path to debug token> -device <Development Address> -password <device password>"
-
-
-### Install the Chrome browser and the Ripple extension for Chrome
-
-
 ### Create a "Hello World!" PlayBook HTML5 & WebWorks app 
 
     (in a folder C:\Users\<username>\RippleSites\HelloWorld)
