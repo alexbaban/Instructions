@@ -14,9 +14,9 @@
     "C:\Users\<username>\AppData\Local\Research In Motion" folder (if needed create the "Research In Motion" folder)
 
 
-### Download and install the Adobe AIR SDK & Compiler
+### Download and install the Adobe AIR SDK & Compiler (version 2.7)
 
-    Search Google for "download adobe air sdk"
+    Search Google for "archived adobe air sdk"
 
 
 ### Download and instal the BlackBerry WebWorks SDK for PlayBook OS (tablet)
@@ -84,5 +84,3 @@
     
     </widget>
 
-
-### Use Ripple to package and deploy the app on a PlayBook tablet
