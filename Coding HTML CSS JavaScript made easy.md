@@ -43,7 +43,6 @@ www.wireframe.cc/
 ## Google Fonts
 www.google.com/fonts/
 
-### Use
 ```html
 <htm>
   <head>
