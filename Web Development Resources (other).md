@@ -3,3 +3,5 @@
 - Self Doubt In Programming & Web Development
   * (https://www.youtube.com/watch?v=sard25VQ2HU)
   
+- How To Ace Your Phone Interview (Berkley Design Talk)
+ * (https://www.youtube.com/watch?v=M8l2aGMjKHI)
