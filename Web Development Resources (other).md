@@ -8,3 +8,6 @@
   
 - Why You Should Learn Progressive Web Apps Today
   * (https://www.youtube.com/watch?v=adSQZBwejzI)
+  
+- 9 Talks I Can't Wait to See at Iterate
+  * (https://developer.okta.com/blog/2018/02/20/9-talks-i-cant-wait-to-see-at-iterate)
