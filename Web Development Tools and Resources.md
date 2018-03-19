@@ -14,3 +14,6 @@
   
 - Learn jQuery in 15 minutes – Series Welcome
     * (https://www.youtube.com/watch?v=Pt49y1gm0jw)
+
+- An Introduction to JavaScript ES6 Arrow Functions
+   * https://developer.ibm.com/node/2015/09/21/an-introduction-to-javascript-es6-arrow-functions/
