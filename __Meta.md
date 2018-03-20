@@ -1,4 +1,4 @@
-# _Meta
+# __Meta
 
 Mastering Markdown
   - https://guides.github.com/features/mastering-markdown/
