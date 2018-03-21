@@ -24,3 +24,22 @@ Open "Integrated Terminal" (from Visual Studio Code)
 
 Create .exe   
 `dotnet publish -c Release -r win10-x64`
+
+## First program (file Program.cs)
+
+``` c#
+using System;
+
+namespace DotNetHello
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.ReadKey();
+        }
+    }
+}
+
+```
