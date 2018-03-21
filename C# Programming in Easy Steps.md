@@ -19,7 +19,7 @@ code .
 
 ```
 
-Open "Integrated Terminal"   
+Open "Integrated Terminal" (from Visual Studio Code)   
 `dotnet run`
 
 Create .exe   
