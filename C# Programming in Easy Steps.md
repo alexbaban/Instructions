@@ -19,10 +19,10 @@ code .
 
 ```
 
-Open "Integrated Terminal" (from Visual Studio Code)   
+open "Integrated Terminal" (from Visual Studio Code)   
 `dotnet run`
 
-Create .exe   
+create .exe   
 `dotnet publish -c Release -r win10-x64`
 
 ## First program (file Program.cs)
