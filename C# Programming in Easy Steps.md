@@ -19,7 +19,8 @@ code .
 
 ```
 
-View "Integrated Terminal"
-
+Open "Integrated Terminal"   
 `dotnet run`
 
+Create .exe   
+`dotnet publish -c Release -r win10-x64`
