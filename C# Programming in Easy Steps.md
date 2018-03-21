@@ -25,6 +25,9 @@ open "Integrated Terminal" (from Visual Studio Code)
 create .exe   
 `dotnet publish -c Release -r win10-x64`
 
+## Get started with ASP.NET in 10 minutes (Web)
+(https://www.microsoft.com/net/learn/apps/web/get-started/windows)
+
 ## First program (file Program.cs)
 
 ``` c#
