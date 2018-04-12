@@ -53,6 +53,77 @@ $(".some-class-name").show();
 $("p span").css("color", "red");
 ```
 
+### selector extensions
+> jQuery has extended the CSS3 selectors with more selectors. Because these selectors are jQuery extension and not part of the CSS specification, queries using them cannot take advantage of the performance boost provided by the native DOM  querySelectorAll() method. To achieve the best performance when using these selectors, first select some elements using a pure CSS selector, then use .filter().
+
+Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
+
+``` html
+<ul id="list">
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+
+</ul>
+```
+**`:first`** *Selects the first matched DOM element.*
+``` js
+    $('ul#list li:first').css('color', 'red');
+
+```
+> Because :first is a jQuery extension and not part of the CSS specification, queries using :first cannot take advantage of the performance boost provided by the native DOM querySelectorAll() method. To achieve the best performance when using :first to select elements, first select the elements using a pure CSS selector, then use .filter(":first").
+
+``` js
+    $('ul#list li').filter(':first').css('color', 'red');
+
+```
+**more like this**
+``` js
+    $('ul#list li').filter(':last').css('color', 'green');
+    $('ul#list li').filter(':even').css('background-color', 'yellow');
+    $('ul#list li').filter(':odd').css('background-color', '#ccc');
+    $('ul#list li').filter(':nth-child(3n)').css('list-style', 'none');
+
+```
+
+### selecting `input` by `type`
+``` html
+    <input type="button" value="Button" />
+    <input type="submit" value="Submit" />
+    <input type="text" />
+
+```
+
+``` js
+    $(':button').hide();
+    $(':submit').hide();
+    $(':text').hide();
+
+```
+
+### attributes as selectors
+``` html
+    <a href="http://google.com">Google</a>
+    <a href="http://yahoo.com">Yahoo</a>
+
+```
+
+``` js
+    $('[href]').css('color', 'red');
+    $('a[href="http://yahoo.com"]').css('color', 'green');
+
+```
+
+### select *everything*
+``` js
+    $('*').hide();
+
+```
+
 ## Events
 
 
