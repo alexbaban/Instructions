@@ -54,9 +54,7 @@ $("p span").css("color", "red");
 ```
 
 ### selector extensions
-> jQuery has extended the CSS3 selectors with more selectors. Because these selectors are jQuery extension and not part of the CSS specification, queries using them cannot take advantage of the performance boost provided by the native DOM  querySelectorAll() method. To achieve the best performance when using these selectors, first select some elements using a pure CSS selector, then use .filter().
-
-Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
+> jQuery has extended the CSS3 selectors with more selectors. 
 
 ``` html
 <ul id="list">
@@ -89,6 +87,8 @@ Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
     $('ul#list li').filter(':nth-child(3n)').css('list-style', 'none');
 
 ```
+
+Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
 
 ### selecting `input` by `type`
 ``` html
