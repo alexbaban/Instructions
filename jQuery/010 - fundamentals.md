@@ -33,6 +33,16 @@ or if included with Bootstrap
 
 ```
 
+## Document Ready
+
+``` js
+$(document).ready(function() {
+  // run code after document is loaded
+
+});
+
+```
+
 ## Selectors
 
 ### by id, by class name
@@ -124,7 +134,109 @@ Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
 
 ```
 
-## Events
+## Mouse Events
+
+### mouse click on a button with an id of 'btn-one'
+``` js
+$('#btn-one').click(function(evt) {
+    alert("button one clicked");
+    console.log(evt);
+});
+
+// or
+
+$('#btn-one').on('click', function() {
+    alert("button one clicked");
+});
+
+// or
+
+$('#btn-one').on('click', function() {
+    $('#list').toggle();
+});
+
+```
+
+### mouse hover, mouseenter, mouseleave
+``` js
+$('#btn-one').hover(function() {
+    $('#list').toggle();
+});
+
+// equivalent with
+
+$('#btn-one').on('mouseenter', function() {
+    $('#list').toggle();
+});
+
+// together with
+
+$('#btn-one').on('mouseleave', function() {
+    $('#list').toggle();
+});
+
+```
+
+## Form Events
+
+``` html
+<form>
+    <label>Name</label><br />
+    <input type="text" id="name" />
+    <br />
+    <label>Email</label><br />
+    <input type="email" id="email" />
+    <br />
+    <label>Gender</label><br />
+    <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <br />
+    <input type="submit" value="Submit" />
+        
+
+</form> 
+
+```
+
+### focus
+``` js
+$('input').focus(function(evt) {
+    $(this).css('background', 'lightblue');
+});
+
+$('input').blur(function(evt) {
+    $('input').css('background', 'white');
+});
+
+```
+
+### keyup, keydown
+``` js
+$('input').keyup(function(evt) {
+    console.log(evt.target.value);
+});
+
+```
+
+### change
+``` js
+$('select#gender').change(function(evt) {
+    console.log(evt.target.value);
+});
+
+```
+
+### submit
+``` js
+$('form').submit(function(evt) {
+    evt.preventDefault();
+    console.log(evt);
+});
+
+```
+
 
 
 ## DOM Manipulation
