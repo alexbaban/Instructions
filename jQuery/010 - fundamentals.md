@@ -237,10 +237,74 @@ $('form').submit(function(evt) {
 
 ```
 
-
-
 ## DOM Manipulation
 
+``` css
+.my-class {
+    color: whitesmoke;
+    background: chocolate;
+}
+
+```
+
+``` html
+<button id="btn1">Button</button>
+<p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora mollitia ut quos temporibus quidem dolores?</p>
+<p id="para2" class="my-class">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+<div id="my-div"></div>
+
+<a href="//google.com">Google</a>
+
+```
+
+### add, remove, toggle class
+``` js
+$('#para1').addClass('my-class');
+$('#para2').removeClass('my-class');
+
+$('#btn1').click(function() {
+    $('#para1').toggleClass('my-class');
+});
+
+```
+
+### set, get content
+``` js
+$('#my-div').text('Hello!');
+$('#my-div').html('<h2>Hello World</h2>');
+
+var myText = $('#my-div').text();
+console.log(myText);
+
+```
+
+### wrap
+``` js
+$('p').wrap('<h3>');
+$('p').wrapAll('<h3>');
+```
+
+### more
+``` js
+.append();
+.prepend();
+.appendTo();
+.prependTo();
+.before();
+.after();
+.empty();
+.detach();
+
+```
+
+### attributes
+``` js
+$('a').attr('target', '_blank');
+console.log( $('a').attr('href') );
+$('a').removeAttr('target', '_blank');
+
+```
 
 ## Methods
 
