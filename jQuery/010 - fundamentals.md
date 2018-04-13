@@ -128,7 +128,7 @@ Link: (https://api.jquery.com/category/selectors/jquery-selector-extensions/)
 
 ```
 
-### select *everything*
+### select everything
 ``` js
     $('*').hide();
 
@@ -347,9 +347,6 @@ $.each(newArr, function(i, val) {
 });
 
 ```
-
-## Methods
-
 
 ## Effects & Animation
 
