@@ -249,7 +249,7 @@ $('form').submit(function(evt) {
 
 ``` html
 <button id="btn1">Button</button>
-<p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora mollitia ut quos temporibus quidem dolores?</p>
+<p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora mollitia ut quos dolores?</p>
 <p id="para2" class="my-class">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
 <div id="my-div"></div>
@@ -303,6 +303,48 @@ $('p').wrapAll('<h3>');
 $('a').attr('target', '_blank');
 console.log( $('a').attr('href') );
 $('a').removeAttr('target', '_blank');
+
+```
+
+### append from input
+``` html
+<input id="new-text" type="text" />
+<ul id="my-list">
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+
+```
+
+``` js
+// enter key code is 13
+$('#new-text').keyup(function(e) {
+    if (e.which === 13) {
+        e.preventDefault();
+        $('#my-list').append('<li>'+ e.target.value +'</li>');
+        $('#new-text').val('');
+    }
+});
+
+```
+
+### arrays
+``` js
+var myArr = ['Alpha', 'Bravo', 'Charlie', 'Delta', 'Echo'];
+
+// append
+$.each(myArr, function(i, val) {
+    $('#my-list').append('<li>'+ val +'</li>');
+});
+
+// get
+var newArr = $('#my-list li').toArray();
+console.log(newArr);
+
+$.each(newArr, function(i, val) {
+    console.log(val.innerHTML);
+});
 
 ```
 
