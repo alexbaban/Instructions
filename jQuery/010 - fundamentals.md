@@ -43,6 +43,15 @@ $(document).ready(function() {
 
 ```
 
+or
+
+``` js
+$(function(){
+    alert('ready');
+});
+
+```
+
 ## Selectors
 
 ### by id, by class name
