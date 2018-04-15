@@ -46,7 +46,7 @@ $(document).ready(function() {
 or
 
 ``` js
-$(function(){
+$(function () {
     alert('ready');
 });
 
