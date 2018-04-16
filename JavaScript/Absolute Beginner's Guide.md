@@ -255,7 +255,7 @@ ___Detecting Inactivity with `setTimeout`___
     }
 
     function goInactive() {
-        alert("You're inactive!");
+        alert("Anybody?");
         // do something    
     }
 
@@ -267,8 +267,5 @@ ___Detecting Inactivity with `setTimeout`___
 })();
 
 ```
-
-
-
 
 ### ``
