@@ -33,7 +33,7 @@ The resulting set of elements from selectors and methods is always wrapped in a 
 jQuery objects are different from regular DOM elements or node lists (do not provide the same methods and properties for some tasks).
 
 ### tag name, id, and class
-`$('p)` - selects all paragraphs in the document   
+`$('p')` - selects all paragraphs in the document   
 `$('#some-id')` - selects the single element in the document which has an id of _"some-id"_   
 `$('.some-class')` - selects all elements in the document that have a class of _"some-class"_   
 
