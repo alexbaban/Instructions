@@ -1,4 +1,4 @@
-# How to generate 10 random numbers within 0 to 20 range
+# How to generate 10 random numbers within 1 to 20 (inclusive) range
 
 ``` js
 var randomNumbers = [];
