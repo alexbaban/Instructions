@@ -25,7 +25,7 @@ phpinfo(INFO_MODULES);
 ### load `http://localhost/info.php` in browser
 
 * check for `Loaded Configuration File`, for example	`C:\MAMP\conf\php7.2.1\php.ini`
-* check for `cURL support`, for example	`enabled`
+* check for `cURL support`, should be set to `enabled`
 
 ## Download `The Twilio PHP SDK`
 (https://www.twilio.com/docs/libraries/php)   
