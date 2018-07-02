@@ -83,4 +83,39 @@ curl.cainfo = "C:\MAMP\bin\php\cacert.pem"
 * load `http://localhost/twilio.php` in browser (should work now)
 
 
+## new file `sms.php`
 
+``` php
+<?php
+
+ini_set('display_errors', '1');
+
+require __DIR__ . '/twilio-php-master/Twilio/autoload.php';
+use Twilio\Rest\Client;
+
+// Your Account SID and Auth Token from twilio.com/console
+// $account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+// $auth_token = 'your_auth_token';
+
+$account_sid = getenv("TWILIO_ACCOUNT_SID");
+$auth_token = getenv("TWILIO_AUTH_TOKEN");
+
+// A Twilio number you own with SMS capabilities
+$twilio_number = "+13335557777";
+
+// Message to send
+$msg = "I sent \r\n this message in under 10 minutes!";
+
+$client = new Client($account_sid, $auth_token);
+$client->messages->create(
+    // Where to send a text message (your cell phone?)
+    '+17775553333',
+    array(
+        'from' => $twilio_number,
+        'body' => $msg
+    )
+);
+
+?>
+
+```
