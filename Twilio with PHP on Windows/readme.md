@@ -62,12 +62,22 @@ foreach($calls as $record) {
 * load `http://localhost/twilio.php` in browser (this will fail)
 
 ## Download and save the necessary CA certs
-(https://curl.haxx.se/ca/cacert.pem)
+(https://curl.haxx.se/ca/cacert.pem) or download `cacert.pem` from (https://curl.haxx.se/docs/caextract.html)
 * save to `C:\MAMP\bin\php\`
 
 ## Edit `C:\MAMP\conf\php7.2.1\php.ini`
 * `display_errors = on`
 * `curl.cainfo = "C:\MAMP\bin\php\cacert.pem"`
+
+or 
+
+## Edit `C:\MAMP\conf\php7.0.13\php.ini` (append to file)
+``` ini
+[curl]
+curl.cainfo = "C:\MAMP\bin\php\cacert.pem"
+
+```
+
 ### restart Apache (or MAMP "Servers")
 
 * load `http://localhost/twilio.php` in browser (should work now)
