@@ -16,7 +16,7 @@ Then, logout from current user and login again so environment variables changes 
 **index.js**
 
 ``` js
-const FOO = process.env.FOO || 'bar';
+const FOO = process.env.FOO || 'baz';
 console.log('The value of FOO is:', FOO);
 
 
