@@ -13,7 +13,7 @@
 We’ll be using NASA’s Astronomy Picture of the Day API (https://api.nasa.gov/api.html#apod) as the JSON API that we are interacting with.
 
 ### Verify with curl first   
-`curl https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
+* `curl https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 
 ### Make request with Node
 
@@ -21,7 +21,7 @@ We’ll be using NASA’s Astronomy Picture of the Day API (https://api.nasa.gov
 * `mkdir apps && cd apps`
 * `mkdir node-test && cd node-test`
 
-**new file `index.js`**
+**new file** `index.js`
 
 ``` js
 const https = require('https');
