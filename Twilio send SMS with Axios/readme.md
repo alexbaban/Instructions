@@ -3,7 +3,7 @@
 Axios is a promise based HTTP client for the browser and node.js   
 (https://github.com/axios/axios)
 
-Also read this section: Using application/x-www-form-urlencoded format   
+Using application/x-www-form-urlencoded format   
 (https://github.com/axios/axios#using-applicationx-www-form-urlencoded-format)
 
 Sample code works with either `qs` or Node.js's native `querystring`
