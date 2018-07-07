@@ -8,7 +8,6 @@
 * Install Pusher Node.js server library `npm install pusher --save`
 
 **new file** `index.js`
-
 ``` js
 var Pusher = require('pusher');
 
@@ -27,3 +26,39 @@ pusher.trigger('my-channel', 'my-event', {
 ```
 
 **run** `node index.js` and check event triggered in Pusher's "Debug Console" page
+
+## Calling `node index.js` from OpenBD
+
+* Install OpenBD JAM Stack (http://openbd.org/jam/)  
+    `cd ~`  
+    `wget http://openbd.org//download/3.1/OpenBDJAM.sh`  
+    `bash OpenBDJAM.sh` 
+    
+* Start OpenBD JAM server  
+    `cd /opt/openbdjam/ && ./openbdjam start`
+    
+**new file** `pusher.cfm` (create in /opt/openbdjam/webroot/)
+``` coldfusion
+<cfset args = [
+	'/opt/apps/node-pusher/index.js'
+] />
+
+<cfdump var="#args#" label="args" />
+<hr />
+
+<!--- // trigger a "Pusher event" using the "Pusher Node.js REST library" --->
+<cfexecute 
+	name="node" 
+	arguments="#args#" 
+	variable="output" 
+	errorVariable="error" 
+	timeout="5" 
+	/>
+
+<cfdump var="#output#" />
+<hr />
+
+<cfdump var="#error#" />
+<hr />
+
+```
