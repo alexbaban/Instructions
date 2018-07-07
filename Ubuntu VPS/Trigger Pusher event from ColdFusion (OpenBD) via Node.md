@@ -27,7 +27,7 @@ pusher.trigger('my-channel', 'my-event', {
 
 **run** `node index.js` and check event triggered in Pusher's "Debug Console" page
 
-## Calling `node index.js` from OpenBD
+## Calling `node index.js` from ColdFusion
 
 * Install OpenBD JAM Stack (http://openbd.org/jam/)  
     `cd ~`  
@@ -60,5 +60,14 @@ pusher.trigger('my-channel', 'my-event', {
 
 <cfdump var="#error#" />
 <hr />
+
+```
+
+**open** `/pusher.cfm` page in browser and check event triggered in Pusher's "Debug Console" page
+
+## Passing arguments (JSON object) from ColdFusion to Node.js
+
+**update file** `pusher.cfm`
+``` coldfusion
 
 ```
