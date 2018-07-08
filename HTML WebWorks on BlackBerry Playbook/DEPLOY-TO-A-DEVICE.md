@@ -29,5 +29,5 @@
 
 ## Install and launch an application
 
-// run the following command
+// run the following command  
 `blackberry-deploy -installApp -launchApp -package "C:\BlackBerryApps\HelloWorld.bar" -device 192.168.0.1 -password 123456`
