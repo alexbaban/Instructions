@@ -80,7 +80,7 @@ pusher.trigger('my-channel', 'my-event', {
 <hr />
 
 <cfset args = [
-	'/opt/openbdjam/servosafe_node/pusher.js',
+	'/opt/apps/node-pusher/index.js',
 	'#urlFromStruct(payload)#'
 ] />
 
