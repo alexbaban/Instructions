@@ -53,7 +53,7 @@ pusher.trigger('my-channel', 'my-event', {
 	variable="output" 
 	errorVariable="error" 
 	timeout="5" 
-	/>
+/>
 
 <cfdump var="#output#" />
 <hr />
@@ -65,9 +65,65 @@ pusher.trigger('my-channel', 'my-event', {
 
 **open** `/pusher.cfm` page in browser and check event triggered in Pusher's "Debug Console" page
 
-## Passing arguments (JSON object) from ColdFusion to Node.js to Pusher
+## Passing arguments (object) from ColdFusion to Node.js to Pusher
 
 **update file** `pusher.cfm`
 ``` coldfusion
+<cfset payload = {
+	'action': 'end',
+	'id': '1234',
+	'name': 'Alex Baban',
+	'timestamp': '2018-07-05 17:43'
+} />
+
+<cfdump var="#payload#" label="payload" />
+<hr />
+
+<cfset args = [
+	'/opt/openbdjam/servosafe_node/pusher.js',
+	'#urlFromStruct(payload)#'
+] />
+
+<cfdump var="#args#" label="args" />
+<hr />
+
+<!--- // trigger a "Pusher event" using the "Pusher Node.js REST library" --->
+<cfexecute 
+	name="node" 
+	arguments="#args#" 
+	variable="output" 
+	errorVariable="error" 
+	timeout="5" 
+/>
+
+<cfdump var="#output#" />
+<hr />
+
+<cfdump var="#error#" />
+<hr />
 
 ```
+
+**update file** `index.js`
+``` js
+var querystring = require('querystring');
+var Pusher = require('pusher');
+
+// credentials below are fake, replace with valid values
+var pusher = new Pusher({
+  appId: '123456',
+  key: '359ead95925c5657cbe0',
+  secret: '6cc6cc121e87ea5b3885',
+  cluster: 'us2',
+  encrypted: true
+});
+
+const payload = process.argv[2] || '';
+
+pusher.trigger('my-channel', 'my-event', {
+  "payload": querystring.parse(payload)
+});
+
+```
+
+**open** `/pusher.cfm` page in browser and check event triggered in Pusher's "Debug Console" page
