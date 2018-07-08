@@ -127,3 +127,16 @@ pusher.trigger('my-channel', 'my-event', {
 ```
 
 **open** `/pusher.cfm` page in browser and check event triggered in Pusher's "Debug Console" page
+
+**result**
+``` json
+{
+  "payload": {
+    "action": "end",
+    "id": "1714",
+    "name": "Alex Baban",
+    "timestamp": "2018-07-05 17:43"
+  }
+}
+
+```
