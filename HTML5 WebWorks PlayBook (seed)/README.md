@@ -9,7 +9,7 @@ On Windows 10, it's possible to build an unsigned app but signing does not work 
     Location (Windows 7): "C:\Users\<username>\AppData\Local\Research In Motion"
 
 
-### Copy all three files (author.p12, barsigner.csk, barsigner.db) to the new computer into 
+### Copy all three files (author.p12, barsigner.csk, barsigner.db) to the new computer in 
     "C:\Users\<username>\AppData\Local\Research In Motion" folder 
     // if needed create the "Research In Motion" folder
 
