@@ -1,18 +1,16 @@
 # Setting up a new computer (change computers) for PlayBook HTML5 & WebWorks development
 
-
+> Note: On Windows 10, it's possible to build an unsigned app but signing does not work because `bbwp` can't find the signing keys
 
 ### Make a backup of the existing registered BlackBerry Code Signing Keys
 
-    Files: author.p12, barsigner.csk, barsigner.db
-
+    Files: author.p12, barsigner.csk, barsigner.db  
     Location (Windows 7): "C:\Users\<username>\AppData\Local\Research In Motion"
 
 
 ### Copy all three files (author.p12, barsigner.csk, barsigner.db) to the new computer into 
-
-    "C:\Users\<username>\AppData\Local\Research In Motion" folder (if needed create the "Research In Motion" folder)
-
+    "C:\Users\<username>\AppData\Local\Research In Motion" folder 
+    // if needed create the "Research In Motion" folder
 
 ### Download and install the Adobe AIR SDK & Compiler (version 2.7)
 
