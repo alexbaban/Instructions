@@ -40,16 +40,16 @@ On Windows 10, it's possible to build an unsigned app but signing does not work 
 	must contain proper <author> and <authorId> values 
     or <debug_token></debug_token> from bbwp.properties contains a full path to a valid debug token 
 
-### Create a "Hello World!" PlayBook HTML5 & WebWorks app 
+## Create a "Hello World!" PlayBook HTML5 & WebWorks app 
 
     (in a folder C:\Users\<username>\RippleSites\HelloWorld)
 	
     /icon.png
-	/index.html
-	/config.xml
+    /index.html
+    /config.xml
 
 
-(html index.html)
+**new file** `index.html`
 
     <!DOCTYPE html>
     <html>
@@ -68,7 +68,7 @@ On Windows 10, it's possible to build an unsigned app but signing does not work 
     </html>
 
 
-(xml config.xml)
+**new file** `config.xml`
     
     <?xml version="1.0" encoding="UTF-8"?>
     
