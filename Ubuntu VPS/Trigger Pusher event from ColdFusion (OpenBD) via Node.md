@@ -65,7 +65,7 @@ pusher.trigger('my-channel', 'my-event', {
 
 **open** `/pusher.cfm` page in browser and check event triggered in Pusher's "Debug Console" page
 
-## Passing arguments (object) from ColdFusion to Node.js to Pusher
+## Passing arguments (object) from ColdFusion (OpenBD) to Node.js to Pusher
 
 **update file** `pusher.cfm`
 ``` coldfusion
