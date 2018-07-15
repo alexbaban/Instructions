@@ -160,3 +160,90 @@ function send_message($text) {
 
 ```
 
+## new file `sms.php` (with function and globals)
+```php
+<?php
+
+ini_set('display_errors', '1');
+
+require __DIR__ . '\twilio-php-master\Twilio\autoload.php';
+use Twilio\Rest\Client;
+
+$TWILIO_ACCOUNT_SID = getenv("TWILIO_ACCOUNT_SID");
+$TWILIO_AUTH_TOKEN = getenv("TWILIO_AUTH_TOKEN");
+
+$msg = "I sent \r\n this message in under 3 minutes!";
+echo send_message($msg);
+
+function send_message($text) {
+
+	// A Twilio number you own with SMS capabilities
+	$twilio_number = "+13335557777";
+
+	global $TWILIO_ACCOUNT_SID;
+	global $TWILIO_AUTH_TOKEN;
+
+	$client = new Client(
+		$TWILIO_ACCOUNT_SID, 
+		$TWILIO_AUTH_TOKEN
+		);
+	
+	$message = $client->messages->create(
+	    // Where to send a text message (your cell phone?)
+	    '+17775553333',
+	    array(
+	        'from' => $twilio_number,
+	        'body' => $text
+	    )
+	);
+
+	return($message->sid);
+
+}
+
+?>
+
+```
+
+or 
+
+```php
+<?php
+
+ini_set('display_errors', '1');
+
+require __DIR__ . '\twilio-php-master\Twilio\autoload.php';
+use Twilio\Rest\Client;
+
+$TWILIO_ACCOUNT_SID = getenv("TWILIO_ACCOUNT_SID");
+$TWILIO_AUTH_TOKEN = getenv("TWILIO_AUTH_TOKEN");
+
+$msg = "I sent \r\n this message in under 3 minutes!";
+echo send_message($msg);
+
+function send_message($text) {
+
+	// A Twilio number you own with SMS capabilities
+	$twilio_number = "+13335557777";
+
+	$client = new Client(
+		$GLOBALS['TWILIO_ACCOUNT_SID'], 
+		$GLOBALS['TWILIO_AUTH_TOKEN']
+		);
+	
+	$message = $client->messages->create(
+	    // Where to send a text message (your cell phone?)
+	    '+17775553333',
+	    array(
+	        'from' => $twilio_number,
+	        'body' => $text
+	    )
+	);
+
+	return($message->sid);
+
+}
+
+?>
+
+```
