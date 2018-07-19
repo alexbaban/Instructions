@@ -1,4 +1,4 @@
-# ECMAScript 6 Classes
+# ECMAScript 6 Classes (example)
 
 Send an SMS using Node.js and Twilio
 
