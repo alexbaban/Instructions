@@ -1,4 +1,4 @@
-# ECMAScript 6 Promises
+# ECMAScript 6 Promises (example)
 
 Send an SMS using Node.js and Twilio
 
