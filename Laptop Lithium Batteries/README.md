@@ -1,4 +1,4 @@
 # Laptop Lithium Batteries
 
 ## Instructions
-![](LaptopLithiumBatteries.jpeg)
+![](Laptop_Lithium_Batteries.jpeg)
