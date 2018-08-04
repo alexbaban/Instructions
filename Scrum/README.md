@@ -92,6 +92,84 @@ Sprints contain and consist of the
 - the Sprint Review, and 
 - the Sprint Retrospective
 
+Each Sprint has a goal of what is to be built, a design and flexible plan that will guide building it, the work, and the resultant product increment.
+
+During the Sprint:
+- No changes are made that would endanger the Sprint Goal;
+- Quality goals do not decrease; and,
+- Scope may be clarified and re-negotiated between the Product Owner and Development Team as more is learned.
+
+### Cancelling a Sprint
+
+Only the Product Owner has the authority to cancel the Sprint, although he or she may do so under influence from the stakeholders, the Development Team, or the Scrum Master.
+
+A Sprint would be cancelled if the Sprint Goal becomes obsolete. This might occur if the company changes direction or if market or technology conditions change.
+
+When a Sprint is cancelled, any completed and "Done" Product Backlog items are reviewed. If part of the work is potentially releasable, the Product Owner typically accepts it. All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog.
+
+### Sprint Planning
+
+The work to be performed in the Sprint is planned at the Sprint Planning. This plan is created by the collaborative work of the entire Scrum Team.
+
+Sprint Planning is time-boxed to a maximum of eight hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.
+
+**Sprint Planning answers the following:**
+- What can be delivered in the Increment resulting from the upcoming Sprint?
+- How will the work needed to deliver the Increment be achieved?
+
+**What can be done this Sprint?**
+- The Development Team works to forecast the functionality that will be developed during the Sprint. 
+- The Product Owner discusses the objective that the Sprint should achieve and the Product Backlog items that, if completed in the Sprint, would achieve the Sprint Goal. 
+
+The input to this meeting is 
+- the Product Backlog, 
+- the latest product Increment, 
+- projected capacity of the Development Team during the Sprint, and 
+- past performance of the Development Team. 
+
+The number of items selected from the Product Backlog for the Sprint is solely up to the Development Team. Only the Development Team can assess what it can accomplish over the upcoming Sprint.
+
+**How will the chosen work get done?**
+
+Having set the Sprint Goal and selected the Product Backlog items for the Sprint, the Development Team decides how it will build this functionality into a "Done" product Increment during the Sprint. 
+
+The Product Backlog items selected for this Sprint plus the plan for delivering them is called the Sprint Backlog.
+
+- The Product Owner can help to clarify the selected Product Backlog items and make trade-offs. 
+- If the Development Team determines it has too much or too little work, it may renegotiate the selected Product Backlog items with the Product Owner. 
+- The Development Team may also invite other people to attend to provide technical or domain advice.
+
+**Sprint Goal**
+- The Sprint Goal is an objective set for the Sprint that can be met through the implementation of Product Backlog. 
+- It provides guidance to the Development Team on why it is building the Increment. 
+- It is created during the Sprint Planning meeting.
+
+### Daily Scrum
+
+- The Daily Scrum is held every day of the Sprint at the same time and place to reduce complexity
+- The Daily Scrum is a 15-minute time-boxed event for the Development Team 
+- inspecting the work since the last Daily Scrum and progress toward the Sprint Goal
+- the Development Team plans work for the next 24 hours
+
+The structure of the meeting is set by the Development Team and can be conducted in different ways if it focuses on progress toward the Sprint Goal. Here is an example of what might be used:
+- What did I do yesterday that helped the Development Team meet the Sprint Goal?
+- What will I do today to help the Development Team meet the Sprint Goal?
+- Do I see any impediment that prevents me or the Development Team from meeting the Sprint Goal?
+
+The Development Team or team members often meet immediately after the Daily Scrum for detailed discussions, or to adapt, or replan, the rest of the Sprint’s work.
+
+The Daily Scrum is an internal meeting for the Development Team. If others are present, the Scrum Master ensures that they do not disrupt the meeting.
+
+### Sprint Review
+
+
+
+
+
+
+
+
+
 
 
 
