@@ -161,18 +161,91 @@ The Development Team or team members often meet immediately after the Daily Scru
 The Daily Scrum is an internal meeting for the Development Team. If others are present, the Scrum Master ensures that they do not disrupt the meeting.
 
 ### Sprint Review
+- A Sprint Review is held **at the end of the Sprint** to inspect the Increment and adapt the Product Backlog if needed. 
+- During the Sprint Review, the Scrum Team and stakeholders collaborate about what was done in the Sprint. 
+- Based on that and any changes to the Product Backlog during the Sprint, attendees collaborate on the next things that could be done to optimize value.
 
+This is at most **a four-hour meeting for one-month Sprints**. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendees understand its purpose. The Scrum Master teaches everyone involved to keep it within the time-box.
 
+The Sprint Review includes the following elements:
+- Attendees include the Scrum Team and key stakeholders invited by the Product Owner;
+- The Product Owner explains what Product Backlog items have been "Done" and what has not been "Done";
+- The Development Team discusses what went well during the Sprint, what problems it ran into, and how those problems were solved;
+- The Development Team demonstrates the work that it has "Done" and answers questions about the Increment;
+- The Product Owner discusses the Product Backlog as it stands. He or she projects likely target and delivery dates based on progress to date (if needed);
 
+The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning;
+- Review of how the marketplace or potential use of the product might have changed what is the most valuable thing to do next; and,
+- Review of the timeline, budget, potential capabilities, and marketplace for the next anticipated releases of functionality or capability of the product.
 
+**The result of the Sprint Review is a revised Product Backlog** that defines the probable Product Backlog items for the next Sprint. 
 
+### Sprint Retrospective
 
+The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.
 
+- The Sprint Retrospective occurs after the Sprint Review and prior to the next Sprint Planning. 
+- This is at most **a three-hour meeting for one-month Sprints**. For shorter Sprints, the event is usually shorter. 
+- The Scrum Master ensures that the event takes place and that attendants understand its purpose.
 
+The purpose of the Sprint Retrospective is to:
+- Inspect how the last Sprint went with regards to people, relationships, process, and tools;
+- Identify and order the major items that went well and potential improvements; and,
+- Create a plan for implementing improvements to the way the Scrum Team does its work.
 
+During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by improving work processes or adapting the definition of "Done", if appropriate and not in conflict with product or organizational standards.
 
+By the end of the Sprint Retrospective, the Scrum Team should have **identified improvements** that it will implement in the next Sprint. Implementing these improvements in the next Sprint is the adaptation to the inspection of the Scrum Team itself. Although improvements may be implemented at any time, **the Sprint Retrospective provides a formal opportunity to focus on inspection and adaptation**.
 
+### Scrum Artifacts
 
+**Product Backlog**
+- The Product Backlog is an ordered list of everything that is known to be needed in the product. 
+- It is the single source of requirements for any changes to be made to the product. 
+ -The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.
 
+A Product Backlog is never complete. The earliest development of it lays out the initially known and best-understood requirements. The Product Backlog evolves as the product and the environment in which it will be used evolves. The Product Backlog is dynamic; it constantly changes to identify what the product needs to be appropriate, competitive, and useful. If a product exists, its Product Backlog also exists.
+
+The Product Backlog lists all features, functions, requirements, enhancements, and fixes that constitute the changes to be made to the product in future releases. Product Backlog items have the attributes of a description, order, estimate, and value. Product Backlog items often include test descriptions that will prove its completeness when "Done".
+
+As a product is used and gains value, and the marketplace provides feedback, the Product Backlog becomes a larger and more exhaustive list. Requirements never stop changing, so a Product Backlog is a living artifact. Changes in business requirements, market conditions, or technology may cause changes in the Product Backlog.
+
+**Sprint Backlog**
+
+The Sprint Backlog is the set of Product Backlog items selected for the Sprint, plus a plan for delivering the product Increment and realizing the Sprint Goal. The Sprint Backlog is a forecast by the Development Team about what functionality will be in the next Increment and the work needed to deliver that functionality into a "Done" Increment.
+
+The Sprint Backlog makes visible all the work that the Development Team identifies as necessary to meet the Sprint Goal. To ensure continuous improvement, it includes at least one high priority process improvement identified in the previous Retrospective meeting.
+
+The Sprint Backlog is a plan with enough detail that changes in progress can be understood in the Daily Scrum. The Development Team modifies the Sprint Backlog throughout the Sprint, and the Sprint Backlog emerges during the Sprint. This emergence occurs as the Development Team works through the plan and learns more about the work needed to achieve the Sprint Goal.
+
+**Increment**
+
+The Increment is **the sum of all the Product Backlog items completed during a Sprint** and the value of the increments of all previous Sprints. 
+
+At the end of a Sprint, the new Increment must be "Done," which means it must be in useable condition and meet the Scrum Team’s definition of "Done". 
+
+An increment is **a body of inspectable, done work that supports empiricism at the end of the Sprint**. The increment is a step toward a vision or goal. The increment must be in useable condition regardless of whether the Product Owner decides to release it.
+
+**Artifact Transparency**
+
+Scrum relies on transparency. Decisions to optimize value and control risk are made based on the perceived state of the artifacts. To the extent that transparency is complete, these decisions have a sound basis. To the extent that the artifacts are incompletely transparent, these decisions can be flawed, value may diminish and risk may increase.
+
+The Scrum Master must work with the Product Owner, Development Team, and other involved parties to understand if the artifacts are completely transparent. There are practices for coping with incomplete transparency; the Scrum Master must help everyone apply the most appropriate practices in the absence of complete transparency. A Scrum Master can detect incomplete transparency by inspecting the artifacts, sensing patterns, listening closely to what is being said, and detecting differences between expected and real results.
+
+The Scrum Master’s job is to work with the Scrum Team and the organization to increase the transparency of the artifacts. This work usually involves learning, convincing, and change. Transparency doesn’t occur overnight, but is a path.
+
+### Definition of "Done"
+
+When a Product Backlog item or an Increment is described as "Done", everyone must understand what "Done" means. Although this may vary significantly per Scrum Team, members must have a shared understanding of what it means for work to be complete, to ensure transparency. This is the definition of "Done" for the Scrum Team and **is used to assess when work is complete** on the product Increment.
+
+The same definition guides the Development Team in knowing how many Product Backlog items it can select during a Sprint Planning. The purpose of each Sprint is to deliver Increments of potentially releasable functionality that adhere to the Scrum Team’s current definition of "Done".
+
+Development Teams deliver an Increment of product functionality every Sprint. This Increment is useable, so a Product Owner may choose to immediately release it. If the definition of "Done" for an increment is part of the conventions, standards or guidelines of the development organization, all Scrum Teams must follow it as a minimum.
+
+If "Done" for an increment is not a convention of the development organization, the Development Team of the Scrum Team must define a definition of "Done" appropriate for the product. If there are multiple Scrum Teams working on the system or product release, the Development Teams on all the Scrum Teams must mutually define the definition of "Done".
+
+Each Increment is additive to all prior Increments and thoroughly tested, ensuring that all Increments work together.
+
+As Scrum Teams mature, it is expected that their definitions of "Done" will expand to include more stringent criteria for higher quality. New definitions, as used, may uncover work to be done in previously "Done" increments. Any one product or system should have a definition of "Done" that is a standard for any work done on it.
 
 
