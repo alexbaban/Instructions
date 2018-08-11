@@ -21,3 +21,10 @@ SMACSS stands for Scalable and Modular Architecture for CSS and it has 2 core go
 (https://css-tricks.com/css-modules-part-1-need/)
 
 A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.
+
+## The Block, Element, Modifier methodology (BEM)
+(https://en.bem.info/methodology/)  
+(https://css-tricks.com/bem-101/)  
+
+BEM is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.
+
