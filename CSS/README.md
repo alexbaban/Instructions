@@ -17,7 +17,7 @@ SMACSS stands for Scalable and Modular Architecture for CSS and it has 2 core go
 - Decrease the expectation of a specific html structure
 
 ## CSS Modules
-(https://github.com/css-modules/css-modules)
+(https://github.com/css-modules/css-modules)  
 (https://css-tricks.com/css-modules-part-1-need/)
 
 A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.
