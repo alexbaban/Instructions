@@ -2,6 +2,7 @@
 
 ## The Principles Of Object Oriented CSS (OOCSS)
 (https://github.com/stubbornella/oocss/wiki)
+(https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/)
 
 How do you scale CSS for thousands of pages? Object Oriented CSS is an answer.
 - Separate structure and skin
