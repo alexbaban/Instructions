@@ -29,7 +29,7 @@ The front-end is a website built with:
 The back-end is built with:
 - Virtual private server (Ubuntu Linux) from DigitalOcean
 - Communication services and API from Twilio
-- OpenBD (ColdFusion server) and Node.js (for Pusher.com interaction)
+- OpenBD (ColdFusion application server) and Node.js (for Pusher.com interaction)
 
 The source code is private but I'm willing to show it at an interview, here are some screenshots of the web interface:
 
