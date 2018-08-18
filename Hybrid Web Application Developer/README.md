@@ -34,10 +34,13 @@ The back-end is built with:
 The source code is private but I'm willing to show it at an interview, here are some screenshots of the web interface:
 
 - dashboard
+<img src="Capture-dashboard.png" alt="Servosafe Dashboard" width="500" />
 
 - activity
+<img src="Capture-activity.png" alt="Servosafe Activity" width="500" />
 
 - add user
+<img src="Capture-add-user.png" alt="Servosafe Add User" width="500" />
 
 
 
