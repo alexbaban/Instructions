@@ -17,7 +17,29 @@ Here is a screenshot of the application (macOS):
 
 And here is the link to my post (includes source code): (https://bit.ly/2nDxmHo)
 
-## An interesting personal project that I designed and build
+## An interesting personal project that I designed and build (Servosafe)
+
+Servosafe (https://www.servosafe.com) is an automated phone-based check-in system. Workers sign in at the beginning of the shift, periodically check-in, sign off at the end of the shift. If a worker fails to check-in, Servosafe will alert the worker's supervisor.
+
+The front-end is a website built with:
+- HTML, CSS, JavaScript
+- jQuery and Bootstrap
+- Moment.js and Pusher.com
+
+The back-end is built with:
+- Virtual private server (Ubuntu Linux) from DigitalOcean
+- Communication services and API from Twilio
+- OpenBD (ColdFusion server) and Node.js (for Pusher.com interaction)
+
+The source code is private but I'm willing to show it at an interview, here are some screenshots of the web interface:
+
+- dashboard
+
+- activity
+
+- add user
+
+
 
 
 
