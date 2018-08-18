@@ -23,7 +23,7 @@ Servosafe (https://www.servosafe.com) is 100% my contribution and is an automate
 
 The front-end is a website built with:
 - HTML, CSS, JavaScript
-- jQuery and Bootstrap
+- jQuery, Chart.js and Bootstrap
 - Moment.js and Pusher.com
 
 The back-end is built with:
