@@ -11,7 +11,7 @@ Four days ago I wrote a short post about how to build an application which can b
 - understand and write code in a new language
 - write instructions about how to build it
 
-Here is a screenshot of the program (macOS):
+Here is a screenshot of the application (macOS):
 
 <img src="Sending Text Messages with Red and Twilio_1.png" alt="Sending Text Messages with Red and Twilio" width="500" />
 
