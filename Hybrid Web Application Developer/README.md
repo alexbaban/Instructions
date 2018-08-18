@@ -2,7 +2,9 @@
 
 Thank you for following the link here.
 
-Four days ago I wrote a short post about how to build a desktop application which can be used to send text messages to mobile phones. It's simple but it's useful and it demonstrates how I was able to:
+## Most recent personal project
+
+Four days ago I wrote a short post about how to build an application which can be used to send text messages from a desktop computer to mobile phones. It's simple but it's practical and it demonstrates how I was able to:
 - find a compiler to produce cross-platform (Windows, macOS, Linux), stand-alone (portable) executables
 - setting up a toolchain 
 - interact with a cloud API including authentication
@@ -13,5 +15,10 @@ Here is a screenshot of the program (macOS):
 
 <img src="Sending Text Messages with Red and Twilio_1.png" alt="Sending Text Messages with Red and Twilio" width="500" />
 
-And here is the link to my post: (https://bit.ly/2nDxmHo)
+And here is the link to my post (includes source code): (https://bit.ly/2nDxmHo)
+
+## An interesting personal project that I designed and build
+
+
+
 
