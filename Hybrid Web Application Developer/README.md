@@ -33,17 +33,17 @@ The back-end is built with:
 
 The source code is private but I'm willing to show it at an interview, here are some screenshots of the web interface:
 
-- dashboard
+### Dashboard
 <img src="Capture-dashboard.png" alt="Servosafe Dashboard" width="700" />
 
-- activity
+### Activity
 <img src="Capture-activity.png" alt="Servosafe Activity" width="700" />
 
-- add user
+### New User
 <img src="Capture-new-user.png" alt="Servosafe Add User" width="700" />
 
+## Stack Overflow contribution
 
-
-
+I have over 200 answers on Stack Overflow (top 5% ColdFusion, top 5% Twilio API, top 10% JavaScript) and the link to my profile is this (https://bit.ly/2L7UTdy)
 
 
