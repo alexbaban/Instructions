@@ -19,7 +19,7 @@ And here is the link to my post (includes source code): (https://bit.ly/2nDxmHo)
 
 ## An interesting personal project that I designed and build (Servosafe)
 
-Servosafe (https://www.servosafe.com) is 100% my contribution and is an automated phone-based check-in system. Workers sign in at the beginning of the shift, periodically check-in, sign off at the end of the shift. If a worker fails to check-in, Servosafe will alert the worker's supervisor.
+Servosafe (https://www.servosafe.com) is 100% my contribution and is an automated phone-based lone worker monitoring solution. Workers sign in at the beginning of the shift, periodically check-in, sign off at the end of the shift. If a worker fails to check-in, Servosafe will alert the worker's supervisor.
 
 The front-end is a website built with:
 - HTML, CSS, JavaScript
