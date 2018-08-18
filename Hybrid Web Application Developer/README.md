@@ -31,7 +31,7 @@ The back-end is built with:
 - Communication services and API from Twilio
 - OpenBD (ColdFusion application server) and Node.js (for Pusher.com interaction)
 
-The source code is private but I'm willing to show it at an interview, here are some screenshots of the web interface:
+The source code is private but I'm willing to show it at an interview, here are some screenshots of the responsive web interface:
 
 ### Dashboard
 <img src="Capture-dashboard.png" alt="Servosafe Dashboard" width="700" />
@@ -52,5 +52,7 @@ I have over 200 answers on Stack Overflow (top 5% ColdFusion, top 5% Twilio API,
 - [Why is Twilio and Firebase not working cohesively using Node.js?](https://stackoverflow.com/questions/50182368/why-is-twilio-and-firebase-not-working-cohesively-using-node-js/50186208#50186208)
 - [Receiving and processing an SMS with Twilio in Python](https://stackoverflow.com/questions/50075375/receiving-and-processing-an-sms-with-twilio-in-python/50082747#50082747)
 - [chart.js: hide specific ticks in y-axis and hide all x-axis grid line](https://stackoverflow.com/questions/37363567/chart-js-hide-specific-ticks-in-y-axis-and-hide-all-x-axis-grid-line/37366173#37366173)
+
+## Thank you
 
 
