@@ -53,6 +53,6 @@ I have over 200 answers on Stack Overflow (top 5% ColdFusion, top 5% Twilio API,
 - [Receiving and processing an SMS with Twilio in Python](https://stackoverflow.com/questions/50075375/receiving-and-processing-an-sms-with-twilio-in-python/50082747#50082747)
 - [chart.js: hide specific ticks in y-axis and hide all x-axis grid line](https://stackoverflow.com/questions/37363567/chart-js-hide-specific-ticks-in-y-axis-and-hide-all-x-axis-grid-line/37366173#37366173)
 
-## Thank you
+## Thank you for your time
 
 
