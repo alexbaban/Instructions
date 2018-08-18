@@ -46,10 +46,10 @@ The source code is private but I'm willing to show it at an interview, here are 
 
 I have over 200 answers on Stack Overflow (top 5% ColdFusion, top 5% Twilio API, top 10% JavaScript) and the link to my profile is this (https://bit.ly/2L7UTdy)
 
-### Some relevant answers
+### Some of my answers
 - [Send a value from PHP to Node JS for execution](https://stackoverflow.com/questions/51775525/send-a-value-from-php-to-node-js-for-execution/51779756#51779756)
 - [How does this javascript class and method work?](https://stackoverflow.com/questions/51369057/how-does-this-javascript-class-and-method-work/51370098#51370098)
-- [https://stackoverflow.com/questions/50182368/why-is-twilio-and-firebase-not-working-cohesively-using-node-js/50186208#50186208](https://stackoverflow.com/questions/50182368/why-is-twilio-and-firebase-not-working-cohesively-using-node-js/50186208#50186208)
+- [Why is Twilio and Firebase not working cohesively using Node.js?](https://stackoverflow.com/questions/50182368/why-is-twilio-and-firebase-not-working-cohesively-using-node-js/50186208#50186208)
 - [Receiving and processing an SMS with Twilio in Python](https://stackoverflow.com/questions/50075375/receiving-and-processing-an-sms-with-twilio-in-python/50082747#50082747)
 - [chart.js: hide specific ticks in y-axis and hide all x-axis grid line](https://stackoverflow.com/questions/37363567/chart-js-hide-specific-ticks-in-y-axis-and-hide-all-x-axis-grid-line/37366173#37366173)
 
