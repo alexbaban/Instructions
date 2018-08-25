@@ -31,7 +31,7 @@ The back-end is built with:
 - Communication services and API from Twilio
 - OpenBD (ColdFusion application server) and Node.js (for Pusher.com interaction)
 
-The source code is private but I'm willing to show it at an interview, here are some screenshots of the responsive web interface:
+Here are some screenshots of the responsive web interface:
 
 ### Dashboard
 <img src="Capture-dashboard.png" alt="Servosafe Dashboard" width="700" />
