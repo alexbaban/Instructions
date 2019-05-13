@@ -11,3 +11,6 @@
    - Click on Erase.
  - Wait while Disk Uitlity creates the partition and sets up the drive (this can take a few minutes).
  - Then click Done.
+ 
+ ## Terminal command
+ `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ High\ Sierra.app`
