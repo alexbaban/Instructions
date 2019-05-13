@@ -7,10 +7,11 @@
  - Click on Erase.
    - Choose Mac OS Extended (Journaled) as the Format.
    - Choose GUID Partition Map as the Scheme.
-     - Your drive will be called Untitled by default, you could give your drive a name such as "macOS" or "USB". (Note you just need to replace the term USB in the Terminal command with the name of your drive).
+     - Your drive will be called `Untitled` by default.
    - Click on Erase.
  - Wait while Disk Uitlity creates the partition and sets up the drive (this can take a few minutes).
  - Then click Done.
  
  ## Terminal command
- `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ High\ Sierra.app`
+ `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ High\ Sierra.app`
+ - It takes time to run, wait a few minutes for the "done" messages to appear.
