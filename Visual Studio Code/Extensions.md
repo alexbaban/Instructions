@@ -11,4 +11,4 @@ Launces an HTTP server and opens the current document in your browser using the 
 
 ## REST Client by Huachao Mao
 REST Client for Visual Studio Code
-https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+ - https://marketplace.visualstudio.com/items?itemName=humao.rest-client
