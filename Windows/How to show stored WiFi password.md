@@ -1,7 +1,7 @@
 # How to show the stored WiFi password
 
- - open terminal as administrator
+ - open a terminal as administrator
  - run `netsh`
- - run `wlan show profile` to list saved profiles
- - run `wlan show profile <profile name> key=clear` (password is under "key content")
+ - run `wlan show profiles` to list saved profiles
+ - run `wlan show profiles <profile name> key=clear` (password is under "Key Content")
  
