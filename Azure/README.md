@@ -14,6 +14,12 @@
 (https://app.pluralsight.com/library/courses/microsoft-azure-serverless-functions-create)
 (https://app.pluralsight.com/library/courses/azure-cosmos-db)
 
+### Microsoft Azure Administrators
+(https://app.pluralsight.com/channels/details/1690f926-ddd5-4b0d-80bd-4c3be2f821f1?s=1)
+
+### Selected
+(https://app.pluralsight.com/library/courses/microsoft-azure-resource-groups-using)
+
 
 
 
