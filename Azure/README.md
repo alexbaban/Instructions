@@ -1,5 +1,6 @@
 # Azure
 (https://docs.microsoft.com/en-us/azure/)
+(https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
 
 ## Linux Virtual Machines
 (https://docs.microsoft.com/en-us/azure/virtual-machines/linux/)  
