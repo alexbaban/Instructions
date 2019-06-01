@@ -1,5 +1,15 @@
 # Visual Studio Code
 
+## Portable Mode
+
+Portable mode is supported on the ZIP download for Windows and Linux, as well as the regular Application download for macOS.
+
+After unzipping the VS Code download, simply create a `data` folder within Code's folder (at the same level with `Code.exe`).
+
+Also, create an empty `tmp` directory inside the data folder, it will be used for TMP data.
+
+(https://code.visualstudio.com/docs/editor/portable)
+
 ## Add key bindings to transform selected text to upper/lower case
 
 Make <kbd>ctrl+k ctrl+u</kbd> and <kbd>ctrl+l ctrl+l</kbd> work (just like in Sublime Text)
