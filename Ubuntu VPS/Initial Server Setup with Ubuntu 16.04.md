@@ -8,6 +8,8 @@
 `sudo ufw enable`  
 `sudo ufw status`
 
+(https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+
 ## Software and System Maintenance
 `sudo apt-get update`  
 `sudo apt-get dist-upgrade`  
