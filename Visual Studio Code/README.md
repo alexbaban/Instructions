@@ -1,5 +1,9 @@
 # Visual Studio Code
 
+## Creating your own snippets
+Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
+ - https://code.visualstudio.com/docs/editor/userdefinedsnippets
+
 ## Portable Mode
 
 Portable mode is supported on the ZIP download for Windows and Linux, as well as the regular Application download for macOS.
