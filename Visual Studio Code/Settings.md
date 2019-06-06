@@ -13,3 +13,5 @@
         "editor.formatOnSave": true
     }
 ```
+ - Save then close `settings.json` file
+ 
