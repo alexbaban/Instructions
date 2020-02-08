@@ -11,3 +11,11 @@ There are three steps to effectively taking notes while reading:
 3. Copy out the excerpts by hand or take a picture of them to pop into Evernote. Tag accordingly.
 
 _Source:_ (https://www.fs.blog/2013/11/taking-notes-while-reading/)
+
+## More
+
+How to Take Smart Notes: A Step-by-Step Guide  
+(https://www.nateliason.com/blog/smart-notes)
+
+Roam: Why I Love It and How I Use It  
+(https://www.nateliason.com/blog/roam)
