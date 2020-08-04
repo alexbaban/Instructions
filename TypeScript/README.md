@@ -2,7 +2,7 @@
 TypeScript is an open-source language which builds on JavaScript, by adding static type definitions.  
 [https://www.typescriptlang.org](https://www.typescriptlang.org/)
 
-## Links
+## Learning
 **TypeScript Documentation**  
 [https://www.typescriptlang.org/docs](https://www.typescriptlang.org/docs/)
 
