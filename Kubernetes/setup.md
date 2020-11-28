@@ -29,9 +29,3 @@ https://minikube.sigs.k8s.io/docs/start/
 `sudo install minikube-darwin-amd64 /usr/local/bin/minikube`  
 `minikube version`  
 #
-
-### Install Visual Studio Code  
-https://code.visualstudio.com/  
-https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line  
-https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker  
-#
