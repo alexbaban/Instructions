@@ -20,6 +20,7 @@ https://nodejs.org/en/
 ### Install Docker Desktop  
 https://docs.docker.com/docker-for-mac/install/  
 `docker --version`  
+`docker-compose --version`  
 `kubectl version -o json`  
 #
 
