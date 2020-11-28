@@ -11,3 +11,6 @@ https://github.com/derailed/k9s
 `brew install k9s`  
 `k9s version`  
 #
+
+### iTerm2
+https://iterm2.com/  
