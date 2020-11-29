@@ -9,3 +9,5 @@ The following script detects your OS and downloads the appropriate kustomize bin
 then  
 `mv kustomize /usr/local/bin/`
 
+## Learn
+https://www.youtube.com/watch?v=5gsHYdiD6v8  
